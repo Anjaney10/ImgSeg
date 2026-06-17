@@ -12,10 +12,9 @@ NN-based segmentation for $2\mu m$ Visium HD data. Use Residual Attention U-Net 
 ## Structure
 ```text
 .
-├── models/         # U-Net, Attention, Residual modules
-├── utils/          # Tiling, normalization, patching
+├── src/          #  U-Net, Attention, Residual modules, Tiling, normalization, patching
 ├── train.py        # Training script (Mixed Precision)
-├── predict.py      # Inference on .btf or .tif images
+├── inference.py      # Inference on .btf or .tif images
 └── requirements.txt
 ```
 
